@@ -1,36 +1,188 @@
-html{
-    background: white;
-    }
+* {
+    margin:0;
+    padding:0;
+    font-family: "Instrument Serif";
+}
 
-     .instrument-serif-regular {
-        font-family: "Instrument Serif", serif;
-        font-weight: 400;
-        font-style: normal;
-      }
+body{
+    font-family: sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
 
-    
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+h1, h2, h3, h4, h5, h6, p, a, li {
+    font-weight: normal;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+.instrument-serif-regular {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .instrument-serif-regular-italic {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  img{
+    max-width: 100%;
+  }
+
+/*END RESET */
+header {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 14px 10px 14px;
+    margin-bottom: 14px;
+}
+
+nav {
+    width: 500px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: solid black 3px;
+    margin-bottom: 5px;
+}
+
+nav a {
+    margin-left: 12px;
+    font-size: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between
+    padding 10px 14;
+    border-top: 1px solid black;
+    margin-top: 14px;
+}
+
+.logo {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:black;
+}
+
+.ai-image {
+    max-width: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+footer img{
+    width:20px;
+    margin-left: 10px;
+}
+
+.family-image{
+    border: solid black 1px;
+    overflow: hidden;
+    max-width: 100%;
+    display: inline-flex;
+    padding: 10px;
+}
+
+.hero-image {
+    background-image: url("images/BookCook.jpg");
+    background-color: aliceblue;
+    opacity:.65;
+    height: 524px;
+    max-width: 1600px;
+    margin: 16px, auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: solid black 1px;
+}
+
+.hero-transparent {
+    margin:30px;
+    background-color: #ffffff
+}
+
+.hero-text p{
+    width: 100%;
+    font-size: 500%;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    color: whitesmoke;
+    text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
+    opacity: 150%;
+}
+
+h2{
+    font-size: 100px;
+    font-style: bold;
+}
+
+
+/* your projects page */
+
+.h2-projects {
+    font-size: 60px;
+    text-align: right;
+    border-bottom: solid black 1px;
+    margin-bottom: 10px;
+}
+
+.article-pp{
+    height: 300px;
+    display: inline-block;
+    margin: 10, 10, 10, 10;
+    padding: 10, 10, 10, 10;
+    max-height: 100%;
+    margin-bottom: 50px;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.avatarcon {
+    vertical-align: middle;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-20%, -20%);
+}
+.container-3 {
+    height: 300px;
+}
+
+.project-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/*Your Books*/
+
+.h2-book {
+    font-size: 60px;
+    text-align: right;
+    border-bottom: solid black 1px;
+    margin-bottom: 10px;
+}
+
+.bookcont {
+   max-width: 1200px;
+}
+
+.bookimg {
+    border: solid black 1px;
+    overflow: hidden;
+    max-width: 100%;
+    display: inline-flex;
+    padding: 10px;
+}
